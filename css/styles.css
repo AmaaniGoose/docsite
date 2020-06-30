@@ -1,6 +1,6 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px 0px; }
+  padding: 10px 0px; }
 
 .row-content {
   margin: 0px auto;
@@ -18,7 +18,10 @@
   padding: 70px 30px;
   background: #1A2530;
   color: floralwhite; }
-
+.card-header{
+  background:#222224;
+  color: floralwhite;
+}
 address {
   font-size: 80%;
   margin: 0px;
