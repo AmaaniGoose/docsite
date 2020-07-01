@@ -42,13 +42,19 @@ body {
 
 .carousel {
   background: #1c2e4a; }
+
   .carousel .carousel-item {
-    height: 600px; }
+    width:100%;
+    height: 300px; }
+
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 600px; }
+      width: 100%;
+    height: 100%;
+     }
+
 
 #carouselButton {
   right: 0px;
