@@ -43,15 +43,19 @@ body {
 .carousel {
   background: #1c2e4a; }
   .carousel .carousel-item {
-    height: 300px; }
+    height: 600px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      min-height: 600px; }
 
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+  .active img{
+    width: 100%;
+  }
